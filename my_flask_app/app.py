@@ -15,7 +15,6 @@ def index():
 @app.route('/new',methods=['POST'])
 def new():
     item_doc={
-
         'task':request.form['task'],
         'description':request.form['description'],
     }
